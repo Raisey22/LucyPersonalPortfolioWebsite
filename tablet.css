@@ -1,28 +1,46 @@
-.navbar ul{
+/* tablet.css */
+.navbar ul {
     flex-wrap: wrap;
     justify-content: center;
 }
-.heading{
-    font-size: 2.5rem;
+
+.headings {
+    font-size: 2rem;
 }
-#pic{
+
+#home {
+    height: auto;
+    padding: 60px 20px;
+}
+
+#pic {
     flex-direction: column;
     align-items: center;
 }
-#pic img{
-    width: 475px;
-    height: 300px;
+
+#pic img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
-#intro h2{
+
+#intro h2 {
+    font-size: 1.7rem;
     text-align: center;
     padding: 10px;
 }
-.input{
-    width: 60%;
+
+.input,
+.textarea {
+    width: 90%;
 }
-#msg{
-    width: 55%;
+
+#send {
+    width: 50%;
 }
-#send{
-    width: 20%;
+
+.skills-row,
+.projects-row {
+    flex-direction: column;
+    align-items: center;
 }
